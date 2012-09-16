@@ -1,0 +1,167 @@
+/* 
+    Document   : style
+    Created on : Apr 3, 2012, 10:03:12 PM
+    Author     : karthik
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('fonts/1.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('fonts/2.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('fonts/3.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('fonts/4.woff') format('woff');
+}
+
+/* The Main body */
+
+body{
+background-color: #2b2b2b;    
+}
+
+
+#header{
+    
+    margin: 0px 150px auto;
+    color: whitesmoke;
+    padding: 10px;
+   
+    font-family: open sans;
+    text-shadow: 2px 2px 2px #000;
+    height:auto;
+    
+}
+
+
+#navigation{
+    margin: 5px 160px auto;
+    
+    
+}
+.button{
+    background-color: #0080f6;
+    height: 42px;
+    width: 183px;
+    text-align: center;
+    font-family: open sans;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #000;
+    border-radius: 1px;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+.button:hover{
+           text-shadow: 0 0 2px white;
+
+}
+
+#content{
+    margin: 30px 140px auto;
+    background-color: #ececec;
+    padding: 40px;
+    min-height: 600px;
+    max-height: auto;
+    border-radius: 10px;
+    font-family: open sans;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    transition:height 2s;
+    -moz-transition:height 2s; 
+    -webkit-transition:height 2s; 
+    -o-transition:height 2s; 
+}
+ 
+
+footer{
+    margin: 5px 140px auto;
+    color: whitesmoke;
+    padding: 10px;
+    padding-left: 15px;
+    font-family: open sans; 
+     
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+
+    
+}
+
+#topbar{
+    background-color: #333333;
+    font-family: open sans;
+    padding: 2px;
+    color: white;
+    border-radius: 2px;
+    display: block;
+    text-shadow: 0 0 1px white;
+
+    width: 99%;
+    height: 30px;   
+    text-align: center;
+    left: 0;
+    top: 0;
+    
+    
+    
+}
+
+
+.tb{
+  padding-left: 50px;
+  
+}
+
+.tb:hover{
+    text-shadow: 0 0 10px white;
+    
+}
+
+#addr{
+    font-family: open sans;
+    font-weight: 500;
+    text-align: center;
+    float: right;
+    width: 50%;
+    
+}
+
+
+#upper{
+    font-family: open sans;
+    height: 190px;
+    
+}
+
+#image{
+    
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}
+
